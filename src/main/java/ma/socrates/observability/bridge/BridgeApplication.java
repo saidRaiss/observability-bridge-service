@@ -1,13 +1,12 @@
-package ma.socrates.observability.producer;
+package ma.socrates.observability.bridge;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProducerApplication {
+public class BridgeApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProducerApplication.class, args);
+		SpringApplication.run(BridgeApplication.class, args);
 	}
-
 }

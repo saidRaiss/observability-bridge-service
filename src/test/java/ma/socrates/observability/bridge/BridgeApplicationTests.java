@@ -1,10 +1,10 @@
-package ma.socrates.observability.producer;
+package ma.socrates.observability.bridge;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProducerApplicationTests {
+class BridgeApplicationTests {
 
 	@Test
 	void contextLoads() {
