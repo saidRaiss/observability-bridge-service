@@ -8,4 +8,4 @@ app:
   outbound:
     rest-clients:
       consumer:
-        base-url: "http://consumer:8082"
+        base-url: "http://localhost:8082"

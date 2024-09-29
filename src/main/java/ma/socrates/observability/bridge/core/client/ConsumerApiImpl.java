@@ -21,7 +21,7 @@ public class ConsumerApiImpl implements ConsumerApi {
     @Override
     public Message getMessage(String id) {
         return restClient.get()
-                .uri(baseUrl, id)
+                .uri("/message?id={id}", id)
                 .retrieve()
                 .body(Message.class);
     }
